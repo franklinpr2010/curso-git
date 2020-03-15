@@ -1,5 +1,5 @@
 
-##Curso de Git.  
+# Curso de Git.  
 
 Criações de novas branches para desenvolver novas interações no projeto sem afetar o branch principal, isso garante que as pessoas não obtenham erros ao fazer novos commits, isso não afetará a linha principal do projeto. É como se fosse uma linha paralela.
 
