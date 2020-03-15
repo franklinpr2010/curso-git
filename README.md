@@ -75,6 +75,45 @@ Crie uma branch chamada branch2, pode fazer direto dando o comando '-b'
 > git commit -am "merge final"
 
 
+## Desfazendo operações e reset
+
+Se quiser resetar as alterações antes de colocar na stage.
+
+Crie um arquivo chamado palavra.txt
+
+> git ckeckout palavra.txt
+
+Remover algo que já esta na stage usa o comando reset.
+
+> git reset head palavra.txt
+
+Remover algo quando já foi comitado. Esse '^' é para ir para o anterior.
+
+>git reset head^
+
+Averigue se está no commit anterior
+
+> git status
+
+Para não precisar mais rastrear as alterações feitas nesse arquivo.
+
+> git rm --cached palavra.txt
+
+Para eliminar commits feitos previamente
+
+> git reset --hard 9f2d0ea853a6139d4824878cc4356d4da16af3bf (hash do commit que se quer)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
