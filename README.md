@@ -72,6 +72,8 @@ Crie uma branch chamada branch2, pode fazer direto dando o comando '-b'
 
 > git checkout -b branch2
 
+> git commit -am "merge final"
+
 
 
 
