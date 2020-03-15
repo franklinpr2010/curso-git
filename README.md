@@ -29,6 +29,48 @@ Pule para uma nova branch (Todas as alterações estarão na nova branch)
 
 > git checkout nova-branch
 
+Voltar para antiga branch
+
+> git checkout master
+
+Crie um novo arquivo chamado arquivo2.txt
+
+> git add .
+
+> git commit -m "commit 2"  
+
+Agora vamos dar o merge com a branch master, na branch master:
+
+Crie um novo arquivo na nova-branch
+
+> Arquivo3.txt
+
+> git add .
+
+> git commit -m "commit 3"  
+
+Vá para master
+
+> git checkout master
+
+Dê um merge dentro da branch master
+
+> git merge nova-branch
+
+
+## Graph - para averiguar a branch em forma de gráfico.
+
+> git log --graph
+
+Excluir um branch
+
+> git branch -d nova-branch
+
+
+
+
+
+
 
 
 
